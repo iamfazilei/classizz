@@ -1,0 +1,158 @@
+/* General styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    background-color: hsl(0, 0%, 100%);
+  }
+  
+  
+  .container {
+    max-width: auto;
+    margin: 30px;
+    padding: 30px;
+    background-color: #3C2A5D;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quiz-wrapper {
+    display: flex;
+    align-items: center; 
+    border-radius: 15px;
+    border: 2px solid #DA88F9;
+    padding: 10px;
+}
+
+.image-container {
+    flex-shrink: 0; 
+    margin-right: 15px; 
+}
+
+.quiz-image {
+    width: 150px; 
+    height: 150px;
+}
+
+.details-wrapper {
+    flex-grow: 1;
+}
+
+
+.quiz-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 10px 0 8px 0;
+    color: #fff;
+}
+
+.date-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.date-wrapper .image {
+    margin-right: 5px; 
+}
+
+
+hr{
+    border: 1px solid #DA88F9;
+}
+
+.due-date, .course-code {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.quiz-details {
+    color: #fff;
+    margin-top: 8px;
+}
+  h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  /* Performance Overview */
+
+  .image-wrapper{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .performance-icon{
+    margin-right: 20px;
+  }
+
+  .chart{
+    width: 100%;             /* Take full width of parent */
+    max-width: 100%;         /* Prevents the container from overflowing */
+    height: auto;            /* Let height adjust automatically */
+    position: relative;      /* For potential positioning adjustments */
+    border: 2px solid #DA88F9;  
+    border-radius: 15px;
+    padding-top: 20px;
+  }
+
+  #PerformanceChart {
+    display: block;          /* Prevent inline canvas behavior */
+    width: 100%;             /* Ensure canvas scales with the container */
+    height: auto;            /* Allow height to adjust proportionally */
+  }
+  
+  
+  /* Student List */
+    .student-list {
+        margin-top: 40px;
+    }
+  .student-list table {
+    margin-top: 30px;
+    background: linear-gradient(to right, #3C295C, #7E57C2);
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .student-list th, .student-list td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .student-list th {
+    text-align: center;
+    color: white;
+    border: none;
+  }
+  
+  .student-list td {
+    text-align: center;
+    background-color: #5B4C76;
+    color: white;
+    border: 5px solid #3C2A5D;
+    border-left: none;
+    border-right: none;
+  }
+  
+  /* Student Summary */
+  .student-summary {
+    padding-top: 24px;
+    color: white;
+  }
+  .bold {
+    font-weight: bold;
+    color:  #DA88F9;
+  }
+
+
+  .performance-chart {
+    width: 100%;
+    height: auto;
+}
+
